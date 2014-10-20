@@ -1,0 +1,659 @@
+Package: com.haoict.dictationkeyhook
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.dictationkeyhook_0.0.2_iphoneos-arm.deb
+Size: 4756
+MD5sum: 63be9139a303bff8675b031a01719936
+SHA1: 09cefbbbb629a12e40c647b0ea765f4003f0926f
+SHA256: 7d5df1548a4394ba060fe8dd538d093d9beaf5f685177839d91493335de5eb21
+Section: Tweaks
+Description: Replace Dictation Key With Emoji
+Author: Hao Nguyen
+Name: Replace Dictation Key With Emoji
+
+Package: com.haoict.dictationkeyhook
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.dictationkeyhook_0.0.3_iphoneos-arm.deb
+Size: 4774
+MD5sum: 95b0767223a6b21f4cb4ad74adc97fb2
+SHA1: 13a1fcf6b5cdafe73c03ca566ae8f435e02a8286
+SHA256: 520bd8e674e55c537a340b6ef91466085529c723b14ffd83d6eec059addde0c4
+Section: Tweaks
+Description: Show Emoji key in keyboard for iphone 5 - 6 - 7 - 8
+Author: Hao Nguyen
+Name: Replace Dictation Key With Emoji
+
+Package: com.haoict.facebooknoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.facebooknoads_0.0.1_iphoneos-arm.deb
+Size: 3556
+MD5sum: 7abc9edc2d418f6a37983a857e0e76c4
+SHA1: 32e0ad1922eb10bd895864e2df013d3eb0b94e44
+SHA256: 8268d12e675a324a6e57a2b48865b4069960a9206d2c96fb5585b484ab590d61
+Section: Tweaks
+Description: Hide Ads on Facebook app
+Author: Hao Nguyen
+Name: Facebook No Ads
+
+Package: com.haoict.instanoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.instanoads_0.0.1_iphoneos-arm.deb
+Size: 4154
+MD5sum: 569936c14685d4e286da5c1420256d77
+SHA1: c4eb6fe986f05131ba779fbbee199ea2c0003bd7
+SHA256: cd67852500630ab3bde14369cf7fe66161814f4ef0b8d9f7bca349dca6cfd91f
+Section: Tweaks
+Description: Hide Ads on Instagram app (News Feed and Story)
+Author: Hao Nguyen
+Name: Instagram No Ads
+
+Package: com.haoict.instanoads
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.instanoads_0.0.2_iphoneos-arm.deb
+Size: 3942
+MD5sum: 54e4f100fc1d0df32c484b98d11c76b7
+SHA1: f19d545efe0770c36c26ea9f9ce16086af8a55df
+SHA256: d8cd127f1d698f10539a0704a7c5032d8f4362c966b95266039f9460fa9afff5
+Section: Tweaks
+Description: Hide Ads on Instagram app (News Feed and Story)
+Author: Hao Nguyen
+Name: Instagram No Ads
+
+Package: com.haoict.lockscreenwithoutbutton
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.lockscreenwithoutbutton_0.0.1_iphoneos-arm.deb
+Size: 2984
+MD5sum: ff4c0de2d58138d46d885391dacb72e0
+SHA1: c5c17c16c5a7647e8102a50dec6f3cb1960a2281
+SHA256: cce428809ae45e2373211146a0d2ea5e639e33ec2d3781182b487bb46e66901a
+Section: Tweaks
+Description: Lock Screen without button, just double tap from Home
+Author: Hao Nguyen
+Name: Lock Screen Without Button
+
+Package: com.haoict.messengernoads
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.messengernoads_0.0.2_iphoneos-arm.deb
+Size: 3250
+MD5sum: 0cd4c84071552d1a0498bf979b2eb45c
+SHA1: 764cca71de533d336190303568ecb4ba1f5a028d
+SHA256: acbe40851df1949bfebdb3ddf8cded33a25bdd9b0c8314c0482acfee66749a59
+Section: Tweaks
+Description: Hide Ads on Messenger app
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 332
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_1.0.1_iphoneos-arm.deb
+Size: 54842
+MD5sum: a2ae336306c66ad5f889c211dfd75291
+SHA1: 27c9b318c5d7933bc5f7749c3a745ceb3defa8d7
+SHA256: 290d4140be483f9691fff470cf25f8a9f68bfb790104e48e6f6339810e72fb6b
+Section: Tweaks
+Description: Hide Ads on Messenger app, Remove Story Row, Disable Read Receipt
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_1.1.1_iphoneos-arm.deb
+Size: 55476
+MD5sum: ad4dc07a5a6c3699184a7fe61afdb16f
+SHA1: 719f24fae918f7810a293cdb44435d40e4258fb4
+SHA256: 60f4b8d3c638790262f3f66154600b433c6ccb8cf790f859b8319b0d6ef15469
+Section: Tweaks
+Description: Hide Ads on Messenger app, Remove Story Row, Disable Read Receipt
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_1.1.2_iphoneos-arm.deb
+Size: 57514
+MD5sum: b5935fde3c2150ee8f7e214ac630708d
+SHA1: 45f40e62e27f75c96dd7c737ab6642284e47aec3
+SHA256: 7a444d75ef32759a62f310094f44d398c56155cd1058e8c05b05bd461d7198cf
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt and Typing Indicator
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.0.0_iphoneos-arm.deb
+Size: 78824
+MD5sum: eb5a7c6b605fc695626423644d908177
+SHA1: 16c7f19a5baecaab767620181cedd04f03526778
+SHA256: 423ded23b205b4ecdf72fb578bb52305d0f26e3ec4c44d760f8d51f3ead113c7
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 1972
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.0.1_iphoneos-arm.deb
+Size: 417326
+MD5sum: f2c9502d26b8cd53b8044217cfc29ac6
+SHA1: c27c587404a71332dab36946dfaaa1ed4b5a4d2d
+SHA256: a738879920201ee84bce5428125c9d56a1f8372de94590c726d0a84373343fdd
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 524
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.1.0_iphoneos-arm.deb
+Size: 78046
+MD5sum: 1bf767926a0557dce46edb27a1518622
+SHA1: 7605c4128d70ee9d4e594b807da3b91f965ac8b5
+SHA256: 666c8221a26a9ec52fc3000bcf6c7d9c4f490fc315287b084ada71e80e11097b
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 660
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.2.0_iphoneos-arm.deb
+Size: 222906
+MD5sum: 5c7c395526222861ee1b982bc7377134
+SHA1: 86f26fc70ed481422c0b1109197c62ed1ac3138e
+SHA256: 30079f20923163b0be22538813ecd23971610506ca516c36b938aac7252facdc
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.3.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 660
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.3.0_iphoneos-arm.deb
+Size: 224652
+MD5sum: 7454baea23aaaec639cbd79dfe6e3ebe
+SHA1: b6672684f0babebb5f759c3ea176f9c6bdd19fd7
+SHA256: 8585a4a142f22b4d1148cf334812c9d44dfeca399212cb22524207ade761feec
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.4.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 660
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.4.0_iphoneos-arm.deb
+Size: 224742
+MD5sum: 87fa90a66ecb22f457cc8a166f2e5d65
+SHA1: ce709f5570f758c4d2a6a46d7340aeb6d02a0858
+SHA256: 7d7aea5b45d691d576ec3d0002675f78d68577237bafdc584e15b0f847124065
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.5.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 660
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.5.0_iphoneos-arm.deb
+Size: 225066
+MD5sum: 358ddc35356bfdfce35e7cc41aa81713
+SHA1: 284e08ee189bafd099803e481322555fa54c0351
+SHA256: 668211257f019ea16884b980765a63b5431cc4e50ad7346667656518f9bf9bbe
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 2.5.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 660
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 10)
+Filename: ./debs/com.haoict.messengernoads_2.5.1_iphoneos-arm.deb
+Size: 225356
+MD5sum: 6dfe6c9038745a219828d704adf5a5a5
+SHA1: bd4c9f015245c9d77834b6d990fb7a49c2085c59
+SHA256: b06cf995ee9bb2923ab3fdb31a3599bce9879e992bbf9045816a45e873799dfb
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt (Support Control Center to quick turn on/off)
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 3.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 368
+Depends: mobilesubstrate, firmware (>= 10)
+Conflicts: com.haoict.messengernoads
+Filename: ./debs/com.haoict.messengernoads_3.0.0_iphoneos-arm.deb
+Size: 166802
+MD5sum: 0b442d49687f3a9ab78f58a6c3675285
+SHA1: a4f4522f643cdea50c2048ba1071230c3f89545c
+SHA256: 227b455b137ef34ac61a8d8890cb9e727adbe1d285c860877dd23f1c934c201b
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ * Tap on your profile picture on top right of the screen to access settings
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.messengernoads
+Version: 3.3.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 512
+Depends: mobilesubstrate, firmware (>= 10)
+Conflicts: com.haoict.messengernoads
+Filename: ./debs/com.haoict.messengernoads_3.3.0_iphoneos-arm.deb
+Size: 273930
+MD5sum: c15a9b400d689410e65bc09baa4a84fc
+SHA1: 0a3da9554529a4ab0bd2c8f6cfb788d5319c584b
+SHA256: 21c8d23dcd81cff8dfb747a6ed24d3978dd36346bffacb70d95f4b602eca46cc
+Section: Tweaks
+Description: The best tweak for Messenger app.
+ The best tweak for Messenger app.
+ * Tap on your profile picture at the top-left corner of the screen to access settings
+ Features:
+ - Hide Ads on Messenger app
+ - Disable Read Receipt
+ - Disable Typing Indicator
+ - Disable Story Seen Receipt
+ - Can Save Friend's Story
+ - Hide Search Bar, Stories row, People tab
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 258.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Messenger No Ads
+
+Package: com.haoict.redditnoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.redditnoads_0.0.1_iphoneos-arm.deb
+Size: 2960
+MD5sum: af7e6c30186ad1927fa29ddc35ab0550
+SHA1: c5bcf62dcbc375126ba21678a2256bea58727e64
+SHA256: 55775d55f1ca6cc294cd4ac7655b69881bd3114f9570c99880b895ddef7c59e9
+Section: Tweaks
+Description: Hide "Promoted" post for Reddit app
+Author: Hao Nguyen
+Name: Reddit No Ads
+
+Package: com.haoict.tiktokgod
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 328
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
+Filename: ./debs/com.haoict.tiktokgod_0.0.1_iphoneos-arm.deb
+Size: 34754
+MD5sum: 50fae0647bee00d3fe89bdfa242e3b98
+SHA1: 8ade580fb4da4b6a50072bd89bc70721ffea2f4d
+SHA256: 917042d7675d091156fa87d03332380a3f3a578b24b71bf15ffc5a7192d5b509
+Section: Tweaks
+Description: The best tweak for TikTok app.
+ The best tweak for TikTok app.
+ Features:
+ - Remove Ads
+ - Enable download for all videos
+ - More features comming soon... (download without watermark, change country)
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest TikTok version (If it doesn't work, you should update the app to latest version)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: TikTok God
+
+Package: com.haoict.tiktokgod
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 468
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
+Filename: ./debs/com.haoict.tiktokgod_1.1.0_iphoneos-arm.deb
+Size: 53748
+MD5sum: 2e30ad90fcee99d68e67088387ae1f74
+SHA1: 03586574cd8d26e8b3cbc811bbf37b24f490c875
+SHA256: 66e2d0f78064c5d36b99bf0958b590745b61c6f59a6f9a0c8903cb1cd6a270f5
+Section: Tweaks
+Description: The best tweak for TikTok app.
+ The best tweak for TikTok app.
+ Features:
+ - Remove Ads
+ - Enable download for all videos
+ - Download without watermark
+ - Change Region
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest TikTok version (If it doesn't work, you should update the app to latest version >= 15.9.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: TikTok God
+
+Package: com.haoict.tiktokgod
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 472
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
+Filename: ./debs/com.haoict.tiktokgod_1.2.0_iphoneos-arm.deb
+Size: 54260
+MD5sum: 83cca29c4b3c821429e9bde2bb574d78
+SHA1: b077cd902973d827c3b80d4cc17d0f4428426177
+SHA256: 7989a97a117ca2637243ff20721f20d09ccdb6a2cfcc20dd705c26a56f9fc861
+Section: Tweaks
+Description: The best tweak for TikTok app.
+ The best tweak for TikTok app.
+ Features:
+ - Remove Ads
+ - Enable download for all videos
+ - Download without watermark
+ - Auto scroll to next video
+ - Change Region (may not work for iPad and some devices)
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest TikTok version (If it doesn't work, you should update the app to latest version >= 15.9.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: TikTok God
+
+Package: com.haoict.twitternoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.twitternoads_0.0.1_iphoneos-arm.deb
+Size: 3640
+MD5sum: 997badf12013806a78cbcd0de0826e98
+SHA1: 70f932cde53848333c62f198ab49c18be8291909
+SHA256: 8b5688c1f8bdda40f8de70057accdfeeea64e889d8fd82685316b8efdd762274
+Section: Tweaks
+Description: Hide "Promoted" post for Twitter app
+Author: Hao Nguyen
+Name: Twitter No Ads
+
+Package: com.haoict.twitternoads
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.twitternoads_0.0.2_iphoneos-arm.deb
+Size: 3296
+MD5sum: 71f063ccaa1ca5f83ed83118e32326da
+SHA1: f357ee11363c9cd720fabdd60c23bfed0ad5c490
+SHA256: 8b4ecfe5aaa25f067d763b23c349830316b57bf22680d97a206ba36e866b5fd6
+Section: Tweaks
+Description: Hide "Promoted" post for Twitter app
+Author: Hao Nguyen
+Name: Twitter No Ads
+
+Package: com.haoict.zalonoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.haoict.zalonoads_0.0.1_iphoneos-arm.deb
+Size: 3790
+MD5sum: febe18ccf9cbdcd4b1bb7d6d64153e79
+SHA1: c563f111276fe4079bbeb6f589ee7fd53d3665aa
+SHA256: 80c3eb72fae9902488482e001d01dabf6ea7dc54f2d6bf873fd3270d194074b8
+Section: Tweaks
+Description: Hide "Suggested" post for Zalo app
+Author: Hao Nguyen
+Name: Zalo No Ads Beta
+
+Package: com.opa334.ccsupport
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 201
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2.2.deb
+Size: 35410
+MD5sum: bedc14592047dfd4d98fd7118ade5cc2
+SHA1: f70e26d16dd5afe9576ee7801b9a4669d1077198
+SHA256: 0f3393ecbc3b4d0cf95f1a554aff9e113fd9a353006d96b8f8b8c7f55e6ce90f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
