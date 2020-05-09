@@ -47,22 +47,6 @@ Author: Hao Nguyen
 Name: Facebook No Ads
 
 Package: com.haoict.instanoads
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: ./debs/com.haoict.instanoads_0.0.1_iphoneos-arm.deb
-Size: 4154
-MD5sum: 569936c14685d4e286da5c1420256d77
-SHA1: c4eb6fe986f05131ba779fbbee199ea2c0003bd7
-SHA256: cd67852500630ab3bde14369cf7fe66161814f4ef0b8d9f7bca349dca6cfd91f
-Section: Tweaks
-Description: Hide Ads on Instagram app (News Feed and Story)
-Author: Hao Nguyen
-Name: Instagram No Ads
-
-Package: com.haoict.instanoads
 Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
@@ -75,6 +59,33 @@ SHA1: f19d545efe0770c36c26ea9f9ce16086af8a55df
 SHA256: d8cd127f1d698f10539a0704a7c5032d8f4362c966b95266039f9460fa9afff5
 Section: Tweaks
 Description: Hide Ads on Instagram app (News Feed and Story)
+Author: Hao Nguyen
+Name: Instagram No Ads
+
+Package: com.haoict.instanoads
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10)
+Filename: ./debs/com.haoict.instanoads_1.0.1_iphoneos-arm.deb
+Size: 68870
+MD5sum: 78a181ffe12cd93e4a6f92b6117168ee
+SHA1: e397a53727c1cddd802f2ea04ca8ac9d30de4167
+SHA256: 61c6cec5780593b3297096d81a990a3fc973d6ee59610bed6984524ce2f343af
+Section: Tweaks
+Description: Free & Open Source Tweak for Instagram
+ Free & Open Source Tweak for Instagram
+ Features:
+ - Remove Ads (New Feeds and Stories)
+ - Lightweight
+ - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
+ - Support latest Instagram version (If it doesn't work, you should update the app to latest version >= 140.0)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
 Author: Hao Nguyen
 Name: Instagram No Ads
 
