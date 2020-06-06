@@ -1,1 +1,0 @@
-dpkg-scanpackages -m ./debs | gzip -c > Packages.gz
