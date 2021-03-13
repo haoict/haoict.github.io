@@ -136,17 +136,46 @@ Description: Free & Open Source Tweak for Gmail
 Author: Hao Nguyen
 Name: Gmail No Ads
 
+Package: com.haoict.iconcert
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 376
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 13)
+Filename: ./debs/com.haoict.iconcert_1.0.1_iphoneos-arm.deb
+Size: 18396
+MD5sum: d116c22385b41aa5b52af2457ad57f5d
+SHA1: 70fa41efae897bf851ba622415931d753008650d
+SHA256: bc5d51dbe735dcc61cbeb7eb3f938844755431db8dedb4ee4f3c97be00cfc1f0
+Section: Tweaks
+Description: Show remaining certificate time on app icon
+ Show remaining certificate time on app icon
+ Change log:
+ - v1.0.1: Fix crash due to conflict with SnowBoard
+ .
+ Features:
+ - Show remaining certificate time on app icon
+ - Custom styles (opacity, animation, time format)
+ - Support iOS 13 - 14
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: IconCert 14
+
 Package: com.haoict.instanoads
-Version: 2.7.0
+Version: 2.8.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 688
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.7.0_iphoneos-arm.deb
-Size: 340022
-MD5sum: 442a9d9495fecfc8c98b2adda8fc14de
-SHA1: b761a5628a90cd4300e98b3bb4e3f26ace3669fd
-SHA256: 27c7efd3a23b7f2a3331a8476fb787ee53946e5d6562ca5cde6724a613b6bf51
+Filename: ./debs/com.haoict.instanoads_2.8.1_iphoneos-arm.deb
+Size: 340492
+MD5sum: d194c1f2a29ae076cbae87f0ff1b4da8
+SHA1: cfba5293c561d9dd078c678f8de3e5e7c56fc0e1
+SHA256: 39ed931ac625252510cd4887cfc396f5d9da149d8f0f169c70e435e89f6eb0c5
 Section: Tweaks
 Description: Free & Open Source Tweak for Instagram
  Free & Open Source Tweak for Instagram
@@ -159,6 +188,7 @@ Description: Free & Open Source Tweak for Instagram
  - Show like count
  - Determine if user is following you
  - Disable DM seen and Story seen receipt
+ - Unlimited Replay Direct Messages
  - Like confirmation
  - Add App lock (use faceid/touchid to unlock)
  - Support iOS 12 - 14 & latest Instagram version (>= 178.0)
@@ -377,45 +407,16 @@ Author: Hao Nguyen
 Name: Reddit No Ads
 
 Package: com.haoict.theshy
-Version: 1.0.0
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 364
+Installed-Size: 436
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 14)
-Filename: ./debs/com.haoict.theshy_1.0.0_iphoneos-arm.deb
-Size: 17204
-MD5sum: 62be6b2f0a3bf8f256da3ebe9b7ea8ef
-SHA1: 38391d46553d0e44528c64bdb2bc8a9f1c5b57a2
-SHA256: 6f207c5e66725edfcf38e3cf0932e51868d2bec859d78a42c3a1227c02115f0b
-Section: Tweaks
-Description: Dim icons or labels after inactivity
- Dim icons or labels after inactivity
- Change log: https://github.com/haoict/the-shy/releases
- .
- Features:
- - Dim icons or labels after inactivity
- - Custom delay time
- - Custom: Dim icon only or hide lable only or both
- - Support iOS 14
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: The shy
-
-Package: com.haoict.theshy
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 364
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 14)
-Filename: ./debs/com.haoict.theshy_1.1.0_iphoneos-arm.deb
-Size: 18084
-MD5sum: 3ea19f0292929958edbed7d24f157c08
-SHA1: c4db2894b479c1474ec0762b41638f85812dfc04
-SHA256: 9a05e86546c5e377c37aa94611f22f5c8eca04e5ce89082456780ca6932c601e
+Filename: ./debs/com.haoict.theshy_1.1.2_iphoneos-arm.deb
+Size: 75876
+MD5sum: b37d83d6b534da39df142bd2a38a02bf
+SHA1: 410f3cdf1de07cf975bcf58c49c042f79e56ac0d
+SHA256: 894993684e43e48b26544bad482d08d49bf1aeaa3b7cc0437dabf67cd3d56fb9
 Section: Tweaks
 Description: Dim icons or labels after inactivity
  Dim icons or labels after inactivity
