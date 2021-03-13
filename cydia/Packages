@@ -108,21 +108,50 @@ Description: Free & Open Source Tweak for Gmail
 Author: Hao Nguyen
 Name: Gmail No Ads
 
-Package: com.haoict.instanoads
-Version: 2.5.2
+Package: com.haoict.gmailnoads
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 656
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
-Filename: ./debs/com.haoict.instanoads_2.5.2_iphoneos-arm.deb
-Size: 331904
-MD5sum: 74333f08e933463c0ba3ba5c63282660
-SHA1: 983b7aef3e9c73a5edaf1f2dee5cecf4c3c59e38
-SHA256: 11831b833e021b5afc1a094a87a29c7b5d40e6e393a001841aa48991adde5245
+Installed-Size: 452
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.gmailnoads_1.1.0_iphoneos-arm.deb
+Size: 137196
+MD5sum: 9248686163bbc141ae3340dbb6a39f3d
+SHA1: 6f228aa3df3f43a424559866edd1c2dcd225bb89
+SHA256: f45c2bd4d2556fa96ec4ed70d5c32c5d5363656c3b0bdcf3782a8da7ef153f6a
+Section: Tweaks
+Description: Free & Open Source Tweak for Gmail
+ Free & Open Source Tweak for Gmail
+ Change log: https://github.com/haoict/gmail-no-ads/releases
+ .
+ Features:
+ - Remove Ads (in inbox list)
+ - Lightweight
+ - Support iOS 12 - 14 & latest Gmail version
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Gmail No Ads
+
+Package: com.haoict.instanoads
+Version: 2.7.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 688
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/com.haoict.instanoads_2.7.0_iphoneos-arm.deb
+Size: 340022
+MD5sum: 442a9d9495fecfc8c98b2adda8fc14de
+SHA1: b761a5628a90cd4300e98b3bb4e3f26ace3669fd
+SHA256: 27c7efd3a23b7f2a3331a8476fb787ee53946e5d6562ca5cde6724a613b6bf51
 Section: Tweaks
 Description: Free & Open Source Tweak for Instagram
  Free & Open Source Tweak for Instagram
  Change log: https://github.com/haoict/instagram-no-ads/releases
+ .
  Features:
  - Remove Ads (New Feeds and Stories)
  - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)
@@ -130,7 +159,9 @@ Description: Free & Open Source Tweak for Instagram
  - Show like count
  - Determine if user is following you
  - Disable DM seen and Story seen receipt
- - Support iOS 10 - 13 & latest Instagram version (>= 145.0)
+ - Like confirmation
+ - Add App lock (use faceid/touchid to unlock)
+ - Support iOS 12 - 14 & latest Instagram version (>= 178.0)
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -245,13 +276,13 @@ Package: com.haoict.messengernoads
 Version: 3.10.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 1004
+Installed-Size: 972
 Depends: mobilesubstrate, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
 Filename: ./debs/com.haoict.messengernoads_3.10.0_iphoneos-arm.deb
-Size: 541404
-MD5sum: a49227d88bb90c623281929f2844ec45
-SHA1: ed220c06b0fa45aa4998eb2f0f1cc0acb0008b3b
-SHA256: fdab563649b7075d8e5c46914f9fa691cc813baadc8b1b60dbd52785a4647ae3
+Size: 538742
+MD5sum: be67c36dd972bee2f1f4368ac325f88c
+SHA1: bb28976111604e346e669aaf4325630fca6d46b8
+SHA256: 5498ac1f9a099e8cb919a2801f78c1e895b561b24b90432dfc00adb921a6728e
 Section: Tweaks
 Description: The best tweak for Messenger app.
  The best tweak for Messenger app.
@@ -267,40 +298,6 @@ Description: The best tweak for Messenger app.
  - Hide Suggested Contact in Search
  - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
  - Support iOS 12 - iOS 14
- - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 300.0)
- .
- I work very hard to make good, free and open source tweaks for everyone
- If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
- .
- Thanks a ton
-Author: Hao Nguyen
-Name: Messenger No Ads
-
-Package: com.haoict.messengernoads
-Version: 3.9.1
-Architecture: iphoneos-arm
-Maintainer: Hao Nguyen
-Installed-Size: 980
-Depends: mobilesubstrate, com.haoict.libhdev (>= 4.5.0), firmware (>= 10)
-Filename: ./debs/com.haoict.messengernoads_3.9.1_iphoneos-arm.deb
-Size: 539376
-MD5sum: b3dfe7ffa6f35342281e4910e16ee109
-SHA1: ce2525ae99d16484868f18d95eb0e688c89c0ac8
-SHA256: a9f716ac7d9140b918818bb859e96e3acfeb725088e8280063f84239b645017f
-Section: Tweaks
-Description: The best tweak for Messenger app.
- The best tweak for Messenger app.
- Change log: https://github.com/haoict/messenger-no-ads/releases
- Features:
- - Hide Ads on Messenger app
- - Disable Read Receipt
- - Disable Typing Indicator
- - Disable Story Seen Receipt
- - Can Save Friend's Story
- - Hide Search Bar, Stories row, People tab
- - Hide Suggested Contact in Search
- - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)
- - Support iOS 10 - iOS 14
  - Support latest Messenger version (If it doesn't work, you should update the app to latest version >= 300.0)
  .
  I work very hard to make good, free and open source tweaks for everyone
@@ -352,16 +349,16 @@ Author: Hao Nguyen
 Name: Microsoft Detection Bypass
 
 Package: com.haoict.redditnoads
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 640
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 2.0.0), firmware (>= 10)
-Filename: ./debs/com.haoict.redditnoads_1.0.0_iphoneos-arm.deb
-Size: 220112
-MD5sum: 803e5b9625e5222eb9c627b6c32c6ce3
-SHA1: 7886edfc24c2262736c0d7afbb8cbbeb0928b6d9
-SHA256: 0f67b58cbbfa89c57150c95c3bed7822c190d4fbff751a260febfce923d927eb
+Installed-Size: 508
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.redditnoads_1.1.0_iphoneos-arm.deb
+Size: 218198
+MD5sum: b66590f149b20efbed650c5843c796ec
+SHA1: 10c8d7ef1eb005aad69e80584281387fb7345928
+SHA256: 88595f4873d9bea9171596f3d1430bbde5ec6245856cb58562bd5f2ce4ab5a66
 Section: Tweaks
 Description: Free & Open Source Tweak for Reddit
  Free & Open Source Tweak for Reddit
@@ -370,8 +367,7 @@ Description: Free & Open Source Tweak for Reddit
  Features:
  - Remove Ads
  - Lightweight
- - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
- - Support latest Reddit version (If it doesn't work, you should update the app to latest version)
+ - Support iOS 12 - 14 & latest Reddit version
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -409,37 +405,33 @@ Description: Dim icons or labels after inactivity
 Author: Hao Nguyen
 Name: The shy
 
-Package: com.haoict.tiktokgod
-Version: 1.11.0
+Package: com.haoict.theshy
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 404
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.7.0), firmware (>= 12)
-Filename: ./debs/com.haoict.tiktokgod_1.11.0_iphoneos-arm.deb
-Size: 52788
-MD5sum: a67d346d4ce7c4e0b57daadcef664e95
-SHA1: 1f79ef1fed8c06424f74ffe42cc195ed58d981a8
-SHA256: 93a2643772302ddc72600d102ec773c4dcc4e4daf52edda2fa007d5592a96b31
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 14)
+Filename: ./debs/com.haoict.theshy_1.1.0_iphoneos-arm.deb
+Size: 18084
+MD5sum: 3ea19f0292929958edbed7d24f157c08
+SHA1: c4db2894b479c1474ec0762b41638f85812dfc04
+SHA256: 9a05e86546c5e377c37aa94611f22f5c8eca04e5ce89082456780ca6932c601e
 Section: Tweaks
-Description: The best tweak for TikTok app.
- The best tweak for TikTok app.
- Change log: https://github.com/haoict/tiktok-god/releases
+Description: Dim icons or labels after inactivity
+ Dim icons or labels after inactivity
+ Change log: https://github.com/haoict/the-shy/releases
  .
  Features:
- - Remove Ads
- - Download without watermark
- - Auto scroll to next video
- - Change Region (may not work for iPad and some devices)
- - Show progress bar (for fast forward or rewind video)
- - Can hide UI (view video in full screen)
- - Support iOS 12 - 14 & latest TikTok version
+ - Dim icons or labels after inactivity
+ - Custom delay time
+ - Custom icons or labels opacity
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
  .
  Thanks a ton
 Author: Hao Nguyen
-Name: TikTok God
+Name: The shy
 
 Package: com.haoict.tiktokgod
 Version: 1.12.0
