@@ -466,6 +466,69 @@ Description: The best tweak for TikTok app.
 Author: Hao Nguyen
 Name: TikTok God
 
+Package: com.haoict.tiktokgod
+Version: 1.12.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.tiktokgod_1.12.2_iphoneos-arm.deb
+Size: 53760
+MD5sum: 433fe426ab4f138171a35045f4dbf4e5
+SHA1: 7be4acfb6edb367dcdf28dff2f6d6e7a1d8b7705
+SHA256: b11e2690ad22f6983db61f10b9ad3f4bd6ad3a391e258cf3c214ecc00e239fa6
+Section: Tweaks
+Description: The best tweak for TikTok app.
+ The best tweak for TikTok app.
+ Change log: https://github.com/haoict/tiktok-god/releases
+ .
+ Features:
+ - Remove Ads
+ - Download without watermark
+ - Auto scroll to next video
+ - Change Region (may not work for iPad and some devices)
+ - Show progress bar (for fast forward or rewind video)
+ - Can hide UI (view video in full screen)
+ - Support iOS 12 - 14 & latest TikTok version
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: TikTok God
+
+Package: com.haoict.twitchnoads
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 620
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.twitchnoads_2.0.0_iphoneos-arm.deb
+Size: 318602
+MD5sum: cd1804fe5f9fb0395cd5657bda5914f6
+SHA1: e9bc0d74294929824718b679b089a3b6b5e07b01
+SHA256: af76c6c238b5a9766f217ad7490064cff1efde4daf3bcbe100699a7e8339d831
+Section: Tweaks
+Description: Free & Open Source Tweak for Twitch
+ Free & Open Source Tweak for Twitch
+ Change log:
+ - v2.0.0: Better block ads
+ .
+ Features:
+ - Remove Ads
+ - Can save clip (live/stream video is currently not supported, press and hold on clip video to show download option)
+ - Support iOS 12 - 14 & latest Twitch version
+ .
+ I collect uuid for better support and statistic purpose
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Twitch No Ads
+
 Package: com.haoict.twitternoads
 Version: 1.3.0
 Architecture: iphoneos-arm
