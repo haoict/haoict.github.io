@@ -20,6 +20,29 @@ h1 {
   margin: 0.3em 0;
 }
 
+.header-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.header-banner img {
+  margin-right: 5px;
+}
+
+.head-section .add-to > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.head-section .add-to img {
+  width: 28px;
+  height: 28px;
+}
+
 .prompt {
   font-size: 2em;
   font-weight: 200;
@@ -510,7 +533,7 @@ section > ul > li [role="link"],
 section > ul > li ol,
 section > ul > li p,
 section > ul > li ul {
-  padding: 12px 15px;
+  padding: 10px 12px;
   margin: -12px -15px;
 }
 #about > li ol,
@@ -795,30 +818,28 @@ article > p {
     background: 0 0;
   }
 }
-#about #add-to-cydia {
+#about .add-to {
   display: block;
   color: #000;
 }
-.cydia #about #add-to-cydia {
+.cydia #about .add-to {
   display: none;
 }
-#about #add-to-cydia div {
+#about .add-to div {
   max-width: 400px;
-  margin: 0 auto;
 }
-#about #add-to-cydia img {
+#about .add-to img {
   float: left;
   margin-right: 8px;
 }
-#about #add-to-cydia p {
+#about .add-to p {
   margin: 2px 0;
   padding: 0;
   font-size: 13px;
   line-height: 1.2em;
-}
-#about #add-to-cydia p + p {
   color: #000;
 }
+
 #promo {
   display: none;
 }
