@@ -1,18 +1,20 @@
 Package: com.haoict.camerashuttersounddisabler
-Version: 0.0.1
+Version: 0.1.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 0
 Depends: mobilesubstrate
-Filename: ./debs/com.haoict.camerashuttersounddisabler_0.0.1_iphoneos-arm.deb
-Size: 1074
-MD5sum: 2ed249fda78d46734632593df13e3c3e
-SHA1: ecef0feee8910cde7875eb6325bbc0d77aca3b90
-SHA256: 02f41313ba6fa54307c7c5f2fb4fd0d8c3070245629fad94965b55a69e3db430
+Filename: ./debs/com.haoict.camerashuttersounddisabler_0.1.0_iphoneos-arm.deb
+Size: 1154
+MD5sum: 1187cb442ca3f53595b8f22dc4cbc2b2
+SHA1: 7b74e7d9bde28c7371c9a97adda78ca25c782588
+SHA256: c94104a64a3ef4b6f0a4d3fcadc41b57a410c3e13a9da73cc1b91678dad70fb3
 Section: Tweaks
 Description: Camera Shutter Sound Disabler
  Camera Shutter Sound Disabler
- Support iOS 7 - 13
+ Support iOS 12 - 14
+ Change log:
+ - v0.1.0: Use bash, add disable camera_shutter_burst
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
@@ -165,17 +167,45 @@ Description: Show remaining certificate time on app icon
 Author: Hao Nguyen
 Name: IconCert 14
 
-Package: com.haoict.instanoads
-Version: 2.8.1
+Package: com.haoict.iconcert
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 688
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
-Filename: ./debs/com.haoict.instanoads_2.8.1_iphoneos-arm.deb
-Size: 340492
-MD5sum: d194c1f2a29ae076cbae87f0ff1b4da8
-SHA1: cfba5293c561d9dd078c678f8de3e5e7c56fc0e1
-SHA256: 39ed931ac625252510cd4887cfc396f5d9da149d8f0f169c70e435e89f6eb0c5
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 13)
+Filename: ./debs/com.haoict.iconcert_1.1.0_iphoneos-arm.deb
+Size: 19120
+MD5sum: d01415801d8e03cd9adae6593999b91c
+SHA1: 9f07bfc8187e54a248ef9f7c6cb82e274907446b
+SHA256: b0488558d2f708f32deb977c10f6883068a134ff7e7a5bd787c892a710ad0c5f
+Section: Tweaks
+Description: Show remaining certificate time on app icon
+ Show remaining certificate time on app icon
+ Change log: https://github.com/haoict/iconcert/releases
+ .
+ Features:
+ - Show remaining certificate time on app icon
+ - Custom styles (opacity, animation, time format)
+ - Support iOS 13 - 14
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: IconCert 14
+
+Package: com.haoict.instanoads
+Version: 2.9.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/com.haoict.instanoads_2.9.1_iphoneos-arm.deb
+Size: 352106
+MD5sum: 0a697b54c95bbec0226f7e0b8ef2eb70
+SHA1: 82009da14b00ab6c9215f34e793e32745599aabf
+SHA256: abe10b830565d468784e6e386f2541c8b9d37104e0c6b067bfc6d729a4233a14
 Section: Tweaks
 Description: Free & Open Source Tweak for Instagram
  Free & Open Source Tweak for Instagram
@@ -266,22 +296,28 @@ Author: Hao Nguyen
 Name: Kill All Apps
 
 Package: com.haoict.libhdev
-Version: 4.8.0
+Version: 4.8.1
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen <hao.ict56@gmail.com>
-Installed-Size: 312
+Installed-Size: 316
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
-Filename: ./debs/com.haoict.libhdev_4.8.0_iphoneos-arm.deb
-Size: 45298
-MD5sum: c3a8157039292f11e9dff3d876dde6d1
-SHA1: 484fe920d943bdb7e232662d23de7b75cbfdfb07
-SHA256: 98e0925a3f23ee9ea68e3577752f2713014e9ded4cec279ba0f121d419cab981
+Filename: ./debs/com.haoict.libhdev_4.8.1_iphoneos-arm.deb
+Size: 46954
+MD5sum: 9d08e737de8d1de3bc68e27936d1a950
+SHA1: 55b91d41d587fb3ae703a6be6ee0b55c2b6f513d
+SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
 Section: System
 Description: This is a developer library for better preferences and useful utilities.
  This is a developer library for better preferences and useful utilities.
+ .
  Change log:
+ - v4.8.1: Minor improvement
  - v4.8.0: Improve performance & reduce package size
  - v4.7.0: Improve media download & fix preferences cell color
+ .
+ Github: https://github.com/haoict/libhdev-public
+ .
+ © 2021 haoict
 Tag: role::developer
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Name: libhdev
@@ -378,6 +414,48 @@ Description: Free Tweak for Microsoft Apps Detection Bypass
 Author: Hao Nguyen
 Name: Microsoft Detection Bypass
 
+Package: com.haoict.microsoftdetectionbypass
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 300
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.microsoftdetectionbypass_1.0.2_iphoneos-arm.deb
+Size: 12356
+MD5sum: 2c71f38b7ec506709f02a2bd1539ef3e
+SHA1: fdb1eed33360cec6861d9944b571d834269d99e1
+SHA256: 5a4c11d59738529ed5041d1588e012c7393b9466c4d2c0bce0cb7552db66caba
+Section: Tweaks
+Description: Free Tweak for Microsoft Apps Detection Bypass
+ Free Microsoft Apps Detection Bypass
+ Change log: https://github.com/haoict/microsoft-detection-bypass/releases
+ .
+ Features:
+ - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
+  + Outlook
+  + Teams
+  + Word
+  + Excel
+  + PowerPoint
+  + Office 365
+  + OneNote
+  + Power Apps
+  + OneDrive
+  + OneNote
+  + Skype for Business
+  + Edge
+  + SharePoint
+  + To Do
+  + Company Portal
+ - Support iOS 12-14
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Microsoft Detection Bypass
+
 Package: com.haoict.redditnoads
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -396,6 +474,62 @@ Description: Free & Open Source Tweak for Reddit
  .
  Features:
  - Remove Ads
+ - Lightweight
+ - Support iOS 12 - 14 & latest Reddit version
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Reddit No Ads
+
+Package: com.haoict.redditnoads
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 508
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.redditnoads_1.1.1_iphoneos-arm.deb
+Size: 218310
+MD5sum: 6e4eeb7f9a77a26fecd51012dae73dd6
+SHA1: 92656688b9558fb4a3c03c65d12dc81362133dc6
+SHA256: 11f6bb98279fe811ca0c1c9e38f050094447c3f9c505dfdf9c32f910cb35947f
+Section: Tweaks
+Description: Free & Open Source Tweak for Reddit
+ Free & Open Source Tweak for Reddit
+ Change log: https://github.com/haoict/redditnoads/releases
+ .
+ Features:
+ - Remove Ads
+ - Lightweight
+ - Support iOS 12 - 14 & latest Reddit version
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Reddit No Ads
+
+Package: com.haoict.redditnoads
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 508
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
+Filename: ./debs/com.haoict.redditnoads_1.2.0_iphoneos-arm.deb
+Size: 218868
+MD5sum: c75e1b73066d75a1042fcfb5bd0b4b7c
+SHA1: a83e88f187c47c8c0ab077275ad7b2f1da6742c0
+SHA256: 996473c706ef2a7bbb798726c6639b1ce6007e712a7f60fab274374b50ef7eda
+Section: Tweaks
+Description: Free & Open Source Tweak for Reddit
+ Free & Open Source Tweak for Reddit
+ Change log: https://github.com/haoict/redditnoads/releases
+ .
+ Features:
+ - Remove Ads (posts and comments)
  - Lightweight
  - Support iOS 12 - 14 & latest Reddit version
  .
@@ -555,6 +689,39 @@ Description: Free & Open Source Tweak for Twitter
  - Lightweight
  - Support iOS 10 (not tested) - 11 (tested) - 12 (tested) - 13 (tested)
  - Support latest Twitter version (If it doesn't work, you should update the app to latest version)
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Twitter No Ads
+
+Package: com.haoict.twitternoads
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 12)
+Filename: ./debs/com.haoict.twitternoads_1.4.0_iphoneos-arm.deb
+Size: 106844
+MD5sum: a8e19398774c9dc01af66d5b5bb9d685
+SHA1: fbc4e2660926837faae9d6b1498a58e307106899
+SHA256: ff5047c6a0d2a6357262a1c7cd9f9bbf4979af7a1d9d4b6093a089b4fa7f30b8
+Section: Tweaks
+Description: Free & Open Source Tweak for Twitter
+ Free & Open Source Tweak for Twitter
+ Change log: https://github.com/haoict/twitter-no-ads/releases
+ .
+ Features:
+ - Remove Ads
+ - Remove Fleets
+ - Hide News and Trending posts in search tab
+ - Hide who to follow section
+ - Can Save Video (long press on video to save)
+ - Skip analytic URL when open a link
+ - Lightweight
+ - Support iOS 12 - 14 & latest Twitter app
  .
  I work very hard to make good, free and open source tweaks for everyone
  If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
