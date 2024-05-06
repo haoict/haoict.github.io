@@ -1,0 +1,110 @@
+site_name: haoict.github.io
+site_url: https://haoict.github.io
+repo_url: https://github.com/haoict/haoict.github.io
+copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+theme:
+  name: material
+  favicon: _inc/images/logo.png
+  logo: _inc/images/logo.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: art-book
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: art-book-next
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Oxygen
+    code: Oxygen Mono
+  features:
+    - navigation.top
+    #- navigation.instant
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+markdown_extensions:
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      toc_depth: 3
+      permalink: ¶
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+extra_css:
+  - _inc/css/custom.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/haoict
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/haoict
+  extra:
+    alternate:
+      - name: English
+        link: /en/
+        lang: en
+      - name: Vietnamese
+        link: /vi/
+        lang: vi
+plugins:
+  - search
+  - glightbox
+  - macros:
+      include_dir: includes
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: false
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: "Haoict TechBlog"
+        - locale: vi
+          name: Vietnamese
+          build: true
+          site_name: "Haoict TechBlog"
+          nav_translations:
+            Home: Home
+            FAQs: Hỏi Đáp
+
+nav:
+  - Home: index.md
+  - Software Engineering:
+      - software-engineering/index.md
+  - Operating Systems:
+      - operating-systems/index.md
+      - Linux: operating-systems/linux/index.md
+      - Windows: operating-systems/windows/index.md
+  - DevOps:
+      - devops/index.md
+      - Docker: devops/docker/index.md
+      - Kubernetes: devops/kubernetes/index.md
+      - Jenkins: devops/jenkins/index.md
+  - Cydia (Repo): 
+      - cydia/index.html
+  - FAQs: faqs.md

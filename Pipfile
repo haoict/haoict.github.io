@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+mkdocs-static-i18n = "*"
+mkdocs-material = "*"
+mkdocs-glightbox = "*"
+mkdocs-macros-plugin = "*"
+
+[requires]
+python_version = "3"

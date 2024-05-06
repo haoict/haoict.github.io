@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <head>
     <meta charset="utf-8" />
     <meta property="og:title" content="Haoict Repo" />
     <meta property="og:image" content="https://haoict.github.io/cydia/CydiaIcon.png" />
@@ -621,6 +618,13 @@
           </ul>
         </section>
       </article>
+
+      <pre>
+        To update packages
+        ```
+        dpkg-scanpackages -m ./debs > Packages && gzip -c Packages > Packages.gz
+        ```
+      </pre>
     </main>
   </body>
 </html>
