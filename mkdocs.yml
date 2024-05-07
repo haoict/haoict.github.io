@@ -98,13 +98,18 @@ nav:
       - software-engineering/index.md
   - Operating Systems:
       - operating-systems/index.md
-      - Linux: operating-systems/linux/index.md
-      - Windows: operating-systems/windows/index.md
+      - Linux:
+          - operating-systems/linux/index.md
+          - Make Your Own Linux Distro From Scratch: operating-systems/linux/make-your-own-linux-distro-from-scratch/index.md
+      - Windows:
+          - operating-systems/windows/index.md
+          - Build MS-DOS 4.00 from source: operating-systems/windows/build-msdos-4.00-from-source/index.md
+          - WSL2 Guide: operating-systems/windows/wsl2-guide/index.md
   - DevOps:
       - devops/index.md
       - Docker: devops/docker/index.md
       - Kubernetes: devops/kubernetes/index.md
       - Jenkins: devops/jenkins/index.md
-  - Cydia (Repo): 
+  - Cydia (Repo):
       - cydia/index.html
   - FAQs: faqs.md
