@@ -20,8 +20,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Oxygen
-    code: Oxygen Mono
+    text: Segoe UI, Noto Sans, Helvetica, Arial, sans-serif
+    code: SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace
   features:
     - navigation.top
     #- navigation.instant
