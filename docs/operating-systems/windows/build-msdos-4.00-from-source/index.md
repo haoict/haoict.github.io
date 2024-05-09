@@ -66,9 +66,10 @@ it will print the guide how to build it. You can open `RUNME.BAT` from the host 
 <img src="runme-content.png"/>
 
 Basically there're 3 steps:
-- Run `SETENV.BAT` to setup environment
-- Run `NMAKE` command to start building
-- Run `CPY outputDir` to copy the built files to the output folder
+
+* Run `SETENV.BAT` to setup environment
+* Run `NMAKE` command to start building
+* Run `CPY outputDir` to copy the built files to the output folder
 
 Let's try it
 
