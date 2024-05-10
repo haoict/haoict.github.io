@@ -94,22 +94,44 @@ plugins:
 
 nav:
   - Home: index.md
+  - Operating Systems:
+      - Linux:
+          # - operating-systems/linux/index.md
+          - Make Your Own Linux Distro From Scratch:
+              - operating-systems/linux/make-your-own-linux-distro-from-scratch/index.md
+              - Setup Environment: operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env.md
+              - Compile the kernel: operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel.md
+              - Compile Busybox: operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox.md
+              - Creating the initial ram filesystem (initramfs): operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs.md
+              - Configuring the bootloader: operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader.md
+              - Install a package manager (apk): operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager.md
+              - Install docker: operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker.md
+              - Install to hard drive: operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive.md
+              - Appendix: operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix.md
+      - Windows:
+          # - operating-systems/windows/index.md
+          - Build MS-DOS 4.00 from source:
+              - operating-systems/windows/build-msdos-4.00-from-source/index.md
+          - WSL2 Guide:
+              - operating-systems/windows/wsl2-guide/index.md
+  - DevOps:
+      - Docker:
+          - devops/docker/index.md
+      - Kubernetes:
+          - devops/kubernetes/index.md
+          - Create a Kubernetes cluster (Official): devops/kubernetes/create-k8s-cluster.md
+          - Create a Kubernetes cluster (alternative - K0S): devops/kubernetes/create-k0s-cluster.md
+          - Create a Kubernetes cluster (alternative - K3S): devops/kubernetes/create-k3s-cluster.md
+          - Create a Kubernetes cluster (alternative - Kind): devops/kubernetes/create-kind-cluster.md
+      - CI/CD:
+          - ArgoCD: devops/cicd/argocd.md
+          - Jenkins: devops/cicd/jenkins.md
+      - Terraform:
+          - devops/terraform/index.md
   - Software Engineering:
       - software-engineering/index.md
-  - Operating Systems:
-      - operating-systems/index.md
-      - Linux:
-          - operating-systems/linux/index.md
-          - Make Your Own Linux Distro From Scratch: operating-systems/linux/make-your-own-linux-distro-from-scratch/index.md
-      - Windows:
-          - operating-systems/windows/index.md
-          - Build MS-DOS 4.00 from source: operating-systems/windows/build-msdos-4.00-from-source/index.md
-          - WSL2 Guide: operating-systems/windows/wsl2-guide/index.md
-  - DevOps:
-      - devops/index.md
-      - Docker: devops/docker/index.md
-      - Kubernetes: devops/kubernetes/index.md
-      - Jenkins: devops/jenkins/index.md
-  - Cydia (Repo):
-      - cydia/index.html
+  - Misc:
+      - misc/index.md
+      - Cydia (Repo):
+          - cydia/index.html
   - FAQs: faqs.md

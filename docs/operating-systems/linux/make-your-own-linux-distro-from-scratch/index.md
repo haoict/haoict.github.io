@@ -97,11 +97,11 @@ Here is a guide how to make a simple Linux Distro from scratch.
 
 ## References
 
-* https://www.youtube.com/watch?v=QlzoegSuIzg
-* https://medium.com/@ThyCrow/compiling-the-linux-kernel-and-creating-a-bootable-iso-from-it-6afb8d23ba22
-* https://medium.com/@GlobularOne/how-to-make-a-minimal-linux-distribution-from-source-code-5ff9b48dfc2
-* https://gist.github.com/m13253/e4c3e3a56a23623d2e7e6796678b9e58
-* https://kmahyyg.medium.com/tiny-image-dropbear-with-busybox-6f5b65a44dfb
-* VMWare keyboad freeze issue: https://github.com/vmware/open-vm-tools/issues/696#issuecomment-1812710977
-* http://wiki.loverpi.com/faq:sbc:libre-aml-s805x-minimal-rootfs
-* https://dariodip.medium.com/understanding-linux-containers-a-simple-recipe-7c24cc1137b4
+* [https://www.youtube.com/watch?v=QlzoegSuIzg](https://www.youtube.com/watch?v=QlzoegSuIzg)
+* [https://medium.com/@ThyCrow/compiling-the-linux-kernel-and-creating-a-bootable-iso-from-it-6afb8d23ba22](https://medium.com/@ThyCrow/compiling-the-linux-kernel-and-creating-a-bootable-iso-from-it-6afb8d23ba22)
+* [https://medium.com/@GlobularOne/how-to-make-a-minimal-linux-distribution-from-source-code-5ff9b48dfc2](https://medium.com/@GlobularOne/how-to-make-a-minimal-linux-distribution-from-source-code-5ff9b48dfc2)
+* [https://gist.github.com/m13253/e4c3e3a56a23623d2e7e6796678b9e58](https://gist.github.com/m13253/e4c3e3a56a23623d2e7e6796678b9e58)
+* [https://kmahyyg.medium.com/tiny-image-dropbear-with-busybox-6f5b65a44dfb](https://kmahyyg.medium.com/tiny-image-dropbear-with-busybox-6f5b65a44dfb)
+* [https://github.com/vmware/open-vm-tools/issues/696#issuecomment-1812710977](https://github.com/vmware/open-vm-tools/issues/696#issuecomment-1812710977)
+[http://wiki.loverpi.com/faq:sbc:libre-aml-s805x-minimal-rootfs](http://wiki.loverpi.com/faq:sbc:libre-aml-s805x-minimal-rootfs)
+* [https://dariodip.medium.com/understanding-linux-containers-a-simple-recipe-7c24cc1137b4](https://dariodip.medium.com/understanding-linux-containers-a-simple-recipe-7c24cc1137b4)
