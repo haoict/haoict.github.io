@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta property="og:title" content="Haoict Repo" />
+    <meta property="og:image" content="https://haoict.github.io/cydia/CydiaIcon.png" />
+    <title>Haoict Repository</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./CydiaIcon.png" />
+    <link rel="apple-touch-icon" href="./CydiaIcon.png" />
+
+    <link rel="stylesheet" href="./main.css" />
+    <noscript>
+      <style>
+        html {
+          background: transparent;
+        }
+        body {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        body > header {
+          display: none;
+        }
+        body > header + p {
+          margin-top: -20px;
+        }
+        #about #add-to-cydia {
+          display: none;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>
+        <a href="/">
+          <div class="header-banner">
+            <img src="CydiaIcon.png" width="32" height="32" alt="haoict repo" />  
+            <span>Welcome to Haoict Repository</span>
+          </div>
+        </a>
+      </h1>
+    </header>
+
+    <main id="content" role="main">
+      <div class="head-section">
+        <ul id="about">
+          <li>
+            <a
+              class="add-to"
+              id="add-to-cydia"
+              href="cydia://url/https://cydia.saurik.com/api/share#?source=https://haoict.github.io/cydia/"
+              role="button"
+            >
+              <div>
+                <img src="images/cydia7.png" alt="Add to cydia" />
+                <p><strong>Add to Cydia</strong></p>
+                <div class="clear"></div></div
+            ></a>
+          </li>
+          <li>
+            <a
+              class="add-to"
+              id="add-to-zebra"
+              href="zbra://sources/add/https://haoict.github.io/cydia/"
+              role="button"
+            >
+              <div>
+                <img src="images/Zebra.png" alt="Add to zebra" />
+                <p><strong>Add to Zebra</strong></p>
+                <div class="clear"></div></div
+            ></a>
+          </li>
+          <li>
+            <a
+              class="add-to"
+              id="add-to-sileo"
+              href="sileo://source/https://haoict.github.io/cydia/"
+              role="button"
+            >
+              <div>
+                <img src="images/sileo.png" alt="Add to sileo" />
+                <p><strong>Add to Sileo</strong></p>
+                <div class="clear"></div></div
+            ></a>
+          </li>
+        </ul>
+
+        <div class="prompt" role="presentation">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1415 289">
+            <title>$ make do</title>
+            <path
+              d="M79.78 0v43.2c22.75 2.3 40.9 12.38 52.7 23.04l-14.7 15.26c-10.93-10.08-23.6-16.4-38-18.14v65.38c28.8 9.5 55.3 25.63 55.3 61.05 0 27.33-18.73 51.52-55.3 56.42v42.05h-19.6v-41.2C33.13 245.67 12.7 232.7 0 220.32l14.4-16.13c12.1 12.1 26.78 21 45.8 22.44v-79.5c-33.7-11.22-52.7-28.22-52.7-55 0-23.04 17.27-45.5 52.7-48.96V0h19.58zm-19.6 63.94c-15.54 2.6-27.06 11.52-27.06 27.93 0 13.54 6.05 22.18 27.07 30.53V63.94zm19.6 89.85v71.7c19-3.76 29.08-15.57 29.08-35.44 0-16.13-7.48-27.07-29.08-36.3z"
+              fill="#962071"
+              fill-rule="evenodd"
+            />
+            <path
+              d="M431.05 90.06c-15.27 0-25.06 8.06-33.4 20.16-4.62-15.56-15.85-20.16-27.37-20.16-15.26 0-24.77 9.2-32.83 21.02l-1.73-17.86H317V245h22.18V127.2c8.35-12.95 17-18.14 26.5-18.14 10.94 0 11.8 7.78 11.8 27.08V245h22.46V127.2c8.36-12.95 17.28-18.14 26.5-18.14 10.94 0 11.8 7.78 11.8 27.08V245h22.18V132.1c0-34.84-14.68-42.04-29.37-42.04zm179.73 121.82c0 12.1 3.74 16.7 12.38 19.3l-6.05 17.28c-12.93-1.73-23.6-7.78-27.62-21.6-10.94 14.1-27.93 21.3-47.52 21.3-30.52 0-48.96-18.42-48.96-46.65 0-31.1 25.05-48.64 70.84-48.64h22.47v-12.38c0-22.18-13.52-30.24-36-30.24-10.06 0-23.9 2.3-39.44 7.77l-6.62-18.43c18.72-6.62 34.84-9.5 49.82-9.5 37.73 0 56.74 19 56.74 48.96v72.86zm-62.8 18.14c15 0 29.4-8.06 38.32-21.6v-38.88h-21.9c-33.4 0-45.5 12.1-45.5 31.68 0 19 9.22 28.8 29.1 28.8zM682.64 29.3l-24.2 2.87V245h24.2V29.3zm101.1 63.92h-31.1l-67.4 68.84 74.6 82.94h31.95l-76.05-83.23 67.97-68.55zm53.08 84.4c1.16 35.12 20.74 50.4 44.07 50.4 15.54 0 27.06-4.62 40.6-13.55l11.22 16.13c-14.1 10.94-33.1 17.57-51.83 17.57-44.36 0-69.4-31.68-69.4-78.9 0-45.8 25.62-79.2 65.94-79.2 38.3 0 61.92 28.5 61.92 74.58 0 5.18-.3 9.8-.58 12.96h-102zm40.9-67.7c-22.46 0-38.88 15.85-40.9 49.26h78.92c-.57-32.55-14.97-49.25-38-49.25zm341.62-80.63l24.2 2.85V245h-21.32l-2.3-19.87c-11.23 15.84-26.5 23.04-42.9 23.04-39.76 0-57.9-31.68-57.9-78.9 0-45.52 22.17-79.2 59.33-79.2 17.56 0 30.52 6.32 40.9 18.13V29.3zm-34.56 80.32c-25.05 0-39.45 19.58-39.45 59.62 0 39.45 12.68 59.6 36.58 59.6 17.3 0 29.1-11.5 37.46-24.18V129.2c-8.35-12.37-20.45-19.57-34.56-19.57zM1349 90.06c42.63 0 65.1 31.1 65.1 78.9 0 46.66-23.05 79.2-65.4 79.2-42.6 0-65.36-31.1-65.36-78.9 0-46.66 23.04-79.2 65.66-79.2zm0 19.87c-26.2 0-39.45 19-39.45 59.33 0 40.32 12.96 59.04 39.16 59.04 26.24 0 39.2-18.72 39.2-59.33 0-40.03-12.96-59.04-38.9-59.04z"
+              fill="#333"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            IconCert 14
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>IconCert 14</h1>
+              <h3>
+                Show remaining certificate time on app icon
+              </h3>
+              <p>
+                Features:<br />
+                - Show remaining certificate time on app icon<br />
+                - Custom styles (opacity, animation, time format)<br />
+                - Support iOS 13 - 14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/iconcert">https://github.com/haoict/iconcert</a>
+                <br /><br />
+                <img src="images/iconcert14.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            The Shy
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>The Shy</h1>
+              <h3>
+                Dim icons or labels after inactivity
+              </h3>
+              <p>
+                Features:<br />
+                - Dim icons or labels after inactivity<br />
+                - Custom delay time<br />
+                - Custom icons or labels opacity<br />
+                - Support iOS 14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/the-shy">https://github.com/haoict/the-shy</a>
+                <br /><br />See demo video <a href="https://www.reddit.com/r/jailbreak/comments/m2tpom/free_release_thy_shy_dim_home_screen_icons_or/">here</a>
+                <img src="images/the-shy-banner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Microsoft Detection Bypass
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Microsoft Detection Bypass</h1>
+              <h3>
+                Free Microsoft Apps Detection Bypass
+              </h3>
+              <p>
+                Features:<br />
+                - Bypass Jailbreak Detection for Microsoft Enterprise Apps:<br />
+
+                <small>Outlook, Teams, Word, Excel, PowerPoint, Office 365, OneNote, Power Apps, OneDrive, OneNote, Skype for Business, Edge, SharePoint, Company Portal</small><br /><br />
+                - Support iOS 12-14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                <img src="images/microsoft-detection-bypass.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            TikTok God
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>TikTok God</h1>
+              <h3>
+                The best free & open source tweak for TikTok app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Hide Ads<br />
+                - Download without watermark<br />
+                - Auto scroll to next video<br />
+                - Change Region (may not work for iPad and some devices)<br />
+                - Show progress bar (for fast forward or rewind video)<br />
+                - Can hide UI (view video in full screen)<br />
+                - Support iOS 12 - 14 & latest TikTok version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/tiktok-god">https://github.com/haoict/tiktok-god</a>
+                <br /><br />
+                <img src="images/tiktokgodbanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Messenger No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Messenger No Ads</h1>
+              <h3>
+                The best free & open source tweak for Messenger app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Hide Ads<br />
+                - Disable Read Receipt (Support Control Center to quick turn on/off)<br />
+                - Disable Typing Indicator<br />
+                - Hide Search Bar, Stories row, People tab, Hide Suggested Contact in Search<br />
+                - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)<br />
+                - Support iOS 12 - 14 & latest Messenger version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/messenger-no-ads">https://github.com/haoict/messenger-no-ads</a>
+                <br /><br />
+                <img src="images/mnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Instagram No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Instagram No Ads</h1>
+              <h3>
+                Free & Open Source Tweak for Instagram
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads (New Feeds and Stories)<br />
+                - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)<br />
+                - Can Save HD Profile Picture (Press and hold to show download option)<br />
+                - Show like count<br />
+                - Determine if user is following you<br />
+                - Disable DM seen and Story seen receipt<br />
+                - Unlimited Replay Direct Messages<br />
+                - Like confirmation<br />
+                - Add App lock (use faceid/touchid to unlock)<br />
+                - Support iOS 12 - 14 & latest Instagram version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/instagram-no-ads">https://github.com/haoict/instagram-no-ads</a>
+                <br /><br />
+                <img src="images/instanoads.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Facebook No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Facebook No Ads</h1>
+              <h3>
+                Free & open source tweak for Facebook app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads<br />
+                - Can Download Video (long press to download) & Stories<br />
+                - Can Only Me Profile Picture<br />
+                - Disable Story Seen (See friends's story without letting them know)<br />
+                - Hide Composer on News Feed<br />
+                - Hide Stories on News Feed<br />
+                - Support iOS 12 - 14 & latest Facebook version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/facebook-no-ads">https://github.com/haoict/facebook-no-ads</a>
+                <br /><br />
+                <img src="images/fnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Twitter No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Twitter No Ads</h1>
+              <h3>
+                The best free & open source tweak for Twitter app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads<br />
+                - Remove Fleets<br />
+                - Hide News and Trending posts in search tab<br />
+                - Hide who to follow section<br />
+                - Can Save Video (long press on video to save)<br />
+                - Skip analytic URL when open a link<br />
+                - Lightweight<br />
+                - Support iOS 12 - 14 & latest Twitter version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/twitter-no-ads">https://github.com/haoict/twitter-no-ads</a>
+                <br /><br />
+                <img src="images/tnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Twitch No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Twitch No Ads</h1>
+              <h3>
+                The best free & open source tweak for Twitch app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - No Ads<br />
+                - Can save clip (live/stream video is currently not supported, press and hold on clip video to show
+                download option)<br />
+                - Support iOS 12 - 14 & latest Twitch version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/haoict">https://www.paypal.me/haoict</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br /><br />
+                <img src="images/twitchnoads.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Reddit No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Reddit No Ads</h1>
+              <h3>
+                Free & Open Source Tweak for Reddit
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads (New Feeds and Comments)<br />
+                - Support iOS 12 - 14 & latest Reddit version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone<br />
+                If you want to support, you can buy me a coffee at https://www.paypal.me/haoict<br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/reddit-no-ads">https://github.com/haoict/reddit-no-ads</a>
+                <br /><br />
+                <img src="images/rnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Look Screen Without Button
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Look Screen Without Button</h1>
+              <h3>
+                Simple tweak to lock Screen without button, just double tap from Home
+              </h3>
+              <p>
+                - Super light weight. No battery affect. Just install, no preferences<br />
+                - Support iOS 12 - 14<br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/lock-screen-without-button"
+                  >https://github.com/haoict/lock-screen-without-button</a
+                >
+                <br /><br />
+                <img src="images/lockscreenwithoutbutton.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            EmojiKey++
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>EmojiKey++</h1>
+              <h3>
+                - Show Emoji key in keyboard for iphone 5, 6, 7, 8<br />
+                - Support iOS 12 - 14<br />
+              </h3>
+              <p>
+                Open source at:
+                <a href="https://github.com/haoict/dictation-key-hook">https://github.com/haoict/dictation-key-hook</a>
+                <br /><br />
+                <img src="images/emojikeyppbanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Weather Plus
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Weather Plus</h1>
+              <h3>
+                Tweak Add date to each day row to Weather app
+              </h3>
+              <p>
+                Features:<br />
+                - Add the date next to each day<br />
+                - Custom format (dd/MM, MM/dd, etc,...)<br />
+                - Support iOS 12 - 14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone<br />
+                If you want to support, you can buy me a coffee at https://www.paypal.me/haoict<br />
+                <br />
+                Open source at:
+                <a href="https://github.com/haoict/weather-plus">https://github.com/haoict/weather-plus</a>
+                <br /><br />
+                <img src="images/wpppref.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <pre>
+        To update packages
+        ```
+        dpkg-scanpackages -m ./debs > Packages && gzip -c Packages > Packages.gz
+        ```
+      </pre>
+    </main>
+  </body>
+</html>
