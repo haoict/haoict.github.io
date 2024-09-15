@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://haoict.github.io/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/faqs/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/faqs/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/faqs/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/cicd/argocd/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/cicd/argocd/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/cicd/argocd/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/cicd/jenkins/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/cicd/jenkins/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/cicd/jenkins/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/cicd/gitops-development/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/cicd/gitops-development/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/cicd/gitops-development/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/docker/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/docker/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/docker/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/kubernetes/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/kubernetes/create-k0s-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-k0s-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-k0s-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/kubernetes/create-k3s-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-k3s-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-k3s-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/kubernetes/create-k8s-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-k8s-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-k8s-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/kubernetes/create-kind-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-kind-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-kind-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/devops/terraform/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/terraform/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/terraform/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/misc/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/misc/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/misc/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/windows/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/windows/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/windows/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/windows/build-msdos-4.00-from-source/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/windows/build-msdos-4.00-from-source/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/windows/build-msdos-4.00-from-source/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/operating-systems/windows/wsl2-guide/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/windows/wsl2-guide/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/windows/wsl2-guide/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/software-engineering/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/software-engineering/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/software-engineering/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/faqs/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/faqs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/faqs/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/cicd/argocd/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/cicd/argocd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/cicd/argocd/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/cicd/jenkins/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/cicd/jenkins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/cicd/jenkins/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/cicd/gitops-development/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/cicd/gitops-development/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/cicd/gitops-development/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/docker/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/docker/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/kubernetes/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/kubernetes/create-k0s-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-k0s-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-k0s-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/kubernetes/create-k3s-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-k3s-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-k3s-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/kubernetes/create-k8s-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-k8s-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-k8s-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/kubernetes/create-kind-cluster/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/kubernetes/create-kind-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/kubernetes/create-kind-cluster/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/devops/terraform/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/devops/terraform/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/devops/terraform/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/misc/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/misc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/misc/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/1-setup-env/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/2-kernel/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/3-busybox/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/4-initramfs/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/5-bootloader/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/6-package-manager/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/7-docker/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/8-install-to-hard-drive/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/linux/make-your-own-linux-distro-from-scratch/99-appendix/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/windows/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/windows/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/windows/build-msdos-4.00-from-source/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/windows/build-msdos-4.00-from-source/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/windows/build-msdos-4.00-from-source/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/operating-systems/windows/wsl2-guide/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/operating-systems/windows/wsl2-guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/operating-systems/windows/wsl2-guide/"/>
+    </url>
+    <url>
+        <loc>https://haoict.github.io/vi/software-engineering/</loc>
+        <lastmod>2024-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://haoict.github.io/vi/software-engineering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://haoict.github.io/software-engineering/"/>
+    </url>
+</urlset>
