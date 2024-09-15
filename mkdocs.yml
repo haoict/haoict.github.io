@@ -126,6 +126,8 @@ nav:
       - CI/CD:
           - ArgoCD: devops/cicd/argocd.md
           - Jenkins: devops/cicd/jenkins.md
+          - GitOps: 
+            - devops/cicd/gitops-development/index.md
       - Terraform:
           - devops/terraform/index.md
   - Software Engineering:
