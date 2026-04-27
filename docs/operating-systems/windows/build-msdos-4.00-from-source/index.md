@@ -12,9 +12,11 @@ More info: [https://cloudblogs.microsoft.com/opensource/2024/04/25/open-sourcing
 
 ### Compiling Environment
 
-Since the toolchain shipped with the source code in the same repository are 16 bit binaries. We can't run it in modern Windows 10 or 11. We need to run it under a 16 bit Virtual machine or emulator. It can be FreeDOS (VM) or DOSBox (emulator). We'll use DOSBox because it's easy to setup and run directly in Windows 10/11.
+Since the toolchain shipped with the source code in the same repository are 16 bit binaries. We can't run it in modern Windows 10 or 11. We need to run it under a 16 bit Virtual machine or emulator. It can be FreeDOS (VM) or DOSBox (emulator). We'll use DOSBox (or DOSBox-X) because it's easy to setup and run directly in Windows 10/11.
 
 Download and setup DOSBox: [https://www.dosbox.com/download.php?main=1](https://www.dosbox.com/download.php?main=1)
+
+Linux: sudo apt install dosbox-x
 
 <img src="dosbox-new.png"/>
 
@@ -35,8 +37,9 @@ git clone --depth=1 https://github.com/microsoft/MS-DOS.git
 ### Mount the source code directory to DOSBox
 
 In order to use files from the host computer (Windows 10/11) in DOSBox, we have to mount it.  
+The mount folder most be v4.0, not MS-DOS-main, not SRC  
 In DOSBox Run this command:
-```bash
+```dos
 # mount source code to driver D
 mount d c:\Users\Hao\Download\MS-DOS-main\v4.0
 
@@ -69,7 +72,7 @@ Basically there're 3 steps:
 
 * Run `SETENV.BAT` to setup environment
 * Run `NMAKE` command to start building
-* Run `CPY outputDir` to copy the built files to the output folder
+* Run `CPY.BAT outputDir` to copy the built files to the output folder
 
 Let's try it
 
@@ -118,6 +121,54 @@ Get-ChildItem -Path . -Filter LOCSCR -Recurse -File | ForEach-Object {
 <img src="patch-source-code-powershell1.png"/>
 <img src="patch-source-code-powershell2.png"/>
 
+If you're using Linux host, instead of powershell script, here's patch.sh (run it inside SRC dir)
+```bash
+#!/usr/bin/env bash
+set -e
+
+echo "== Fix SETENV.BAT paths =="
+sed -i \
+  -e 's|tools\\lib|tools\\bld\\lib|g' \
+  -e 's|tools\\inc|tools\\bld\\inc|g' \
+  SETENV.BAT
+
+echo "== Replace bad characters with # =="
+# These bytes: EF BF BD, C4 BF, C4 B4
+for f in \
+  MAPPER/GETMSG.ASM \
+  SELECT/SELECT2.ASM \
+  SELECT/USA.INF
+do
+  echo "Fixing $f"
+  # Use perl for byte-level replacement (more reliable than sed here)
+  perl -pi -e 's/\xEF\xBF\xBD|\xC4\xBF|\xC4\xB4/#/g' "$f"
+done
+
+echo "== Fix line endings to CRLF =="
+
+fix_crlf() {
+  local file="$1"
+  echo "Fixing $file"
+  # Convert LF -> CRLF safely (avoid doubling CR)
+  perl -pi -e 's/(?<!\r)\n/\r\n/g' "$file"
+}
+
+export -f fix_crlf
+
+# Process file types
+find . -type f \( \
+    -iname "*.bat" -o \
+    -iname "*.asm" -o \
+    -iname "*.skl" -o \
+    -iname "ZERO.DAT" -o \
+    -iname "LOCSCR" \
+\) -print0 | while IFS= read -r -d '' f; do
+    fix_crlf "$f"
+done
+
+echo "== Done =="
+```
+
 Now let's build again
 ```bash
 cd D:\SRC
@@ -137,7 +188,7 @@ Now we can copy built files to the output directory. Run:
 # make output dir
 mkdir D:\BIN
 
-CPY D:\BIN
+CPY.BAT D:\BIN
 ```
 
 <img src="copy-built-files.png"/>
