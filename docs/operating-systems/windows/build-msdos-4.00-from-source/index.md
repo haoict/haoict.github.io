@@ -79,7 +79,7 @@ Let's try it
 ```bash
 SETENV.BAT
 
-NNAME
+NMAKE
 ```
 <img src="first-try-build.png"/>
 
